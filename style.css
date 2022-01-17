@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+body{
+    background: black;
+    padding-top: 50px;
+}
+#main{
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    background-color:#92969c;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: solid 1px var(--support2);
+    box-shadow:0px 1px 7px 0px rgb(66, 65, 65);
+    padding:20px 0px;
+}
+#calculator{
+    width: 332px;
+    padding: 10px;
+    margin: auto;
+    background-color: #d9dadb;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: solid 1px var(--support2);
+    box-shadow:0px 1px 7px 0px rgb(66, 65, 65)
+}
+#display{
+    display: grid;
+    height: 70px;
+    border-radius: 5px;
+    border:1px solid ;
+    color: black;
+    background: rgb(191, 200, 212);
+    border:none;
+    outline: none;
+    border-top:4px solid grey;
+}
+#display input{
+    display: block;
+    text-align: right;
+    padding: 8px 7px;
+    background: none;
+    font-size: 0.9rem;
+    color: grey;
+    border: none;
+    outline: none;
+}
+#display output{
+    display: grid;
+    text-align: right;
+    padding: 0px 8px;
+    background: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#keyboard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding-top: 10px;
+}
+#keyboard button{
+    height: 70px;
+    width: 70px;
+    font-size: 1.5rem;
+    line-height: 25px;
+    font-weight: normal;
+    background-color:#566987;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(1){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(180, 78, 78);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    /* border-bottom: 4px solid grey; */
+}
+#keyboard button:nth-child(4){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(180, 78, 78);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(8){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(247, 195, 23);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(12){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(247, 195, 23);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(16){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(247, 195, 23);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(20){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color: rgb(247, 195, 23);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
+#keyboard button:nth-child(19){
+    height: 70px;
+    width: 70px;
+    font-size: 1.9rem;
+    background-color:rgb(47, 83, 201);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    border-bottom: 4px solid grey;
+}
